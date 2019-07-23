@@ -61,6 +61,3 @@ If PU-GAN is useful for your research, please consider citing:
 
 Please contact 'lirh@cse.cuhk.edu.hk'
 
-```
-
-```
