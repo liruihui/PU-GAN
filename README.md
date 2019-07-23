@@ -24,6 +24,7 @@ When running the code, if you have `undefined symbol: _ZTIN10tensorflow8OpKernel
    https://github.com/liruihui/PU-GAN.git
    cd PU-GAN
    ```
+   
 2. Compile the TF operators
    Follow the above information to compile the TF operators. 
    
@@ -45,6 +46,17 @@ When running the code, if you have `undefined symbol: _ZTIN10tensorflow8OpKernel
    You will see the input and output results in the folder `data/test/output`.
    
 5. The training and testing mesh files can be downloaded from [GoogleDrive](https://drive.google.com/open?id=1BNqjidBVWP0_MUdMTeGy1wZiR6fqyGmC).
+
+### Evaluation code
+We provide the code to calculate the metric NUC in the evaluation code folder. In order to use it, you need to install the CGAL library. Please refer [this link](https://www.cgal.org/download/linux.html) and  [PU-Net](https://github.com/yulequan/PU-Net) to install this library.
+Then:
+   ```shell
+   cd evaluation_code
+   cmake .
+   make
+   ./evaluation Icosahedron.off Icosahedron.xyz
+```
+The second argument is the mesh, and the third one is the predicted points.
 
 ## Citation
 
