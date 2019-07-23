@@ -49,7 +49,7 @@ When running the code, if you have `undefined symbol: _ZTIN10tensorflow8OpKernel
 
 ## Citation
 
-If PU-Net is useful for your research, please consider citing:
+If PU-GAN is useful for your research, please consider citing:
 
     @inproceedings{li2019pu,
          title={PU-GAN: a Point Cloud Upsampling Adversarial Network},
