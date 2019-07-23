@@ -1,4 +1,3 @@
-```
 # PU-GAN: a Point Cloud Upsampling Adversarial Network
 by [Ruihui Li](http://appsrv.cse.cuhk.edu.hk/~lqyu/), Xianzhi Li, [Chi-Wing Fu](http://www.cse.cuhk.edu.hk/~cwfu/), [Daniel Cohen-Or](https://www.cs.tau.ac.il/~dcor/), [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng/). 
 
@@ -29,8 +28,8 @@ When running the code, if you have `undefined symbol: _ZTIN10tensorflow8OpKernel
    Follow the above information to compile the TF operators. 
    
 3. Train the model:
-  First, you need to download the training patches in HDF5 format from [GoogleDrive](https://drive.google.com/XXX) and put it in folder `data/train`.
-  Then run:
+    First, you need to download the training patches in HDF5 format from [GoogleDrive](https://drive.google.com/XXX) and put it in folder `data/train`.
+    Then run:
    ```shell
    cd code
    python pu_gan.py --phase train
@@ -61,4 +60,7 @@ If PU-GAN is useful for your research, please consider citing:
 ### Questions
 
 Please contact 'lirh@cse.cuhk.edu.hk'
+
+```
+
 ```
