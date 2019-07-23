@@ -36,7 +36,7 @@ When running the code, if you have `undefined symbol: _ZTIN10tensorflow8OpKernel
    ```
 
 4. Evaluate the model:
-    First, you need to download the pretrained model from [GoogleDrive](https://drive.google.com/open?id=1DYNXrh3NBaPEiUI2cVK45JnLcwKVWHZ7), extract it and put it in folder 'model'.
+    First, you need to download the pretrained model from [GoogleDrive](https://drive.google.com/open?id=1BNqjidBVWP0_MUdMTeGy1wZiR6fqyGmC), extract it and put it in folder 'model'.
     Then run:
    ```shell
    cd code
