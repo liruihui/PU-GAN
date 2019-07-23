@@ -65,7 +65,7 @@ If PU-GAN is useful for your research, please consider citing:
     @inproceedings{li2019pu,
          title={PU-GAN: a Point Cloud Upsampling Adversarial Network},
          author={Li, Ruihui and Li, Xianzhi and Fu, Chi-Wing and Cohen-Or, Daniel and Heng, Pheng-Ann},
-         booktitle = {Computer Vision (ICCV), 2019 IEEE International Conference on},
+         booktitle = {{IEEE} International Conference on Computer Vision ({ICCV})},
          year = {2019}
    }
 
