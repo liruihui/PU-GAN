@@ -28,7 +28,7 @@ When running the code, if you have `undefined symbol: _ZTIN10tensorflow8OpKernel
    Follow the above information to compile the TF operators. 
    
 3. Train the model:
-    First, you need to download the training patches in HDF5 format from [GoogleDrive](https://drive.google.com/XXX) and put it in folder `data/train`.
+    First, you need to download the training patches in HDF5 format from [GoogleDrive](https://drive.google.com/open?id=13ZFDffOod_neuF3sOM0YiqNbIJEeSKdZ) and put it in folder `data/train`.
     Then run:
    ```shell
    cd code
@@ -36,7 +36,7 @@ When running the code, if you have `undefined symbol: _ZTIN10tensorflow8OpKernel
    ```
 
 4. Evaluate the model:
-    First, you need to download the pretrained model from [GoogleDrive](https://drive.google.com/XXX), extract it and put it in folder 'model'.
+    First, you need to download the pretrained model from [GoogleDrive](https://drive.google.com/open?id=1DYNXrh3NBaPEiUI2cVK45JnLcwKVWHZ7), extract it and put it in folder 'model'.
     Then run:
    ```shell
    cd code
@@ -44,7 +44,7 @@ When running the code, if you have `undefined symbol: _ZTIN10tensorflow8OpKernel
    ```
    You will see the input and output results in the folder `data/test/output`.
    
-5. The training and testing mesh files can be downloaded from [GoogleDrive](https://drive.google.com/XXX).
+5. The training and testing mesh files can be downloaded from [GoogleDrive](https://drive.google.com/open?id=1BNqjidBVWP0_MUdMTeGy1wZiR6fqyGmC).
 
 ## Citation
 
