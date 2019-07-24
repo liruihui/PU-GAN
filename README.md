@@ -1,5 +1,5 @@
 # PU-GAN: a Point Cloud Upsampling Adversarial Network
-by [Ruihui Li](http://appsrv.cse.cuhk.edu.hk/~XXX/), Xianzhi Li, [Chi-Wing Fu](http://www.cse.cuhk.edu.hk/~cwfu/), [Daniel Cohen-Or](https://www.cs.tau.ac.il/~dcor/), [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng/). 
+by [Ruihui Li](https://liruihui.github.io/), Xianzhi Li, [Chi-Wing Fu](http://www.cse.cuhk.edu.hk/~cwfu/), [Daniel Cohen-Or](https://www.cs.tau.ac.il/~dcor/), [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng/). 
 
 ### Introduction (code will be soon)
 
