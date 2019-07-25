@@ -62,12 +62,13 @@ The second argument is the mesh, and the third one is the predicted points.
 
 If PU-GAN is useful for your research, please consider citing:
 
-    @inproceedings{li2019pu,
+    @inproceedings{li2019pugan,
          title={PU-GAN: a Point Cloud Upsampling Adversarial Network},
          author={Li, Ruihui and Li, Xianzhi and Fu, Chi-Wing and Cohen-Or, Daniel and Heng, Pheng-Ann},
          booktitle = {{IEEE} International Conference on Computer Vision ({ICCV})},
          year = {2019}
-   }
+     }
+
 
 ### Questions
 
