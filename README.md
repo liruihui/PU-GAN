@@ -3,7 +3,7 @@ by [Ruihui Li](https://liruihui.github.io/), [Xianzhi Li](https://nini-lxz.githu
 
 ### Introduction (code will be soon)
 
-This repository is for our ICCV 2019 paper '[PU-GAN: a Point Cloud Upsampling Adversarial Network](https://arxiv.org/abs/1907.10844)'. The code is modified from [3PU](https://github.com/yifita/3PU) and [PU-Net](https://github.com/yulequan/PU-Net). 
+This repository is for our ICCV 2019 paper '[PU-GAN: a Point Cloud Upsampling Adversarial Network](https://liruihui.github.io/publication/PU-GAN/)'. The code is modified from [3PU](https://github.com/yifita/3PU) and [PU-Net](https://github.com/yulequan/PU-Net). 
 
 ### Installation
 This repository is based on Tensorflow and the TF operators from PointNet++. Therefore, you need to install tensorflow and compile the TF operators. 
