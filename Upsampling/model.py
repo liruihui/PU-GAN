@@ -107,7 +107,7 @@ class Model(object):
       gen_tvars = [var for var in tf.trainable_variables() if var.name.startswith("generator")]
 
       with tf.control_dependencies(gen_update_ops):
-          self.G_optimizers = tf.train.AdamOptimizer(learning_rate_g, beta1=self.opts.beta).minimize(self.pu_loss, var_list=gen_tvars,
+          self.G_optimizers = tf.train.AdamOptimizer(learning_rate_g, beta1=self.opts.beta).minimize(self.total_gen_loss, var_list=gen_tvars,
                                                                                               colocate_gradients_with_ops=True,
                                                                                               global_step=self.global_step)
 
