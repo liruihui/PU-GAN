@@ -83,37 +83,3 @@ void group_point_grad_cpu(int b, int n, int c, int m, int nsample, const float *
     }
 }
 
-int main()
-{
-    int b=32,n=512,m=128,nsample=64,c=64;
-    float radius=0.1;
-    float *xyz1=new float[b*n*3];
-    float *xyz2=new float[b*m*3];
-    float *points=new float[b*n*c];
-    int *idx=new int[b*m*nsample];
-    memset(idx, 0, sizeof(int)*b*m*nsample);
-    float *out=new float[b*m*nsample*c];
-    float *grad_out=new float[b*m*nsample*c]; // grad to out
-    memset(grad_out, 0.0, sizeof(float)*b*m*nsample*c);
-    float *grad_points=new float[b*n*c]; // grad to points
-    for (int i=0;i<b*n*3;i++)
-        xyz1[i]=randomf();
-    for (int i=0;i<b*m*3;i++)
-        xyz2[i]=randomf();
-    for (int i=0;i<b*n*c;i++)
-        points[i]=randomf();
-
-    double t0=get_time();
-    query_ball_point_cpu(b,n,m,radius,nsample,xyz1,xyz2,idx);
-    printf("query_ball_point cpu time %f\n",get_time()-t0);
-
-    t0=get_time();
-    group_point_cpu(b,n,c,m,nsample,points,idx,out);
-    printf("grou_point cpu time %f\n",get_time()-t0);
-
-    t0=get_time();
-    group_point_grad_cpu(b,n,c,m,nsample,grad_out,idx,grad_points);
-    printf("grou_point_grad cpu time %f\n",get_time()-t0);
-
-    return 0;
-}
