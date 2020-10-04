@@ -5,6 +5,11 @@ by [Ruihui Li](https://liruihui.github.io/), [Xianzhi Li](https://nini-lxz.githu
 
 This repository is for our ICCV 2019 paper '[PU-GAN: a Point Cloud Upsampling Adversarial Network](https://liruihui.github.io/publication/PU-GAN/)'. The code is modified from [3PU](https://github.com/yifita/3PU) and [PU-Net](https://github.com/yulequan/PU-Net). 
 
+### Docker
+A Dockerfile is provided to help you relief the pain of configurate training environment. 
+
+See the instructions in [here](./Docker).
+
 ### Installation
 This repository is based on Tensorflow and the TF operators from PointNet++. Therefore, you need to install tensorflow and compile the TF operators. 
 
