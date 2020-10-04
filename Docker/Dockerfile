@@ -5,7 +5,7 @@ LABEL version="1.0" maintainer="Unknownue <unknownue@outlook.com>"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-ADD mirror-ubuntu1604.txt /etc/apt/sources.list
+# ADD mirror-ubuntu1604.txt /etc/apt/sources.list
 
 RUN apt update && \
     apt install -y software-properties-common && \
@@ -22,8 +22,8 @@ RUN apt update && \
     ln -sf /usr/bin/python3.6 /usr/bin/python3 && \
     ln -sf /usr/bin/pip3 /usr/bin/pip
 
-RUN pip install pqi && \
-    pqi use aliyun
+# RUN pip install pqi && \
+#     pqi use aliyun
 
 # Install tensorflow
 RUN pip install --no-cache-dir tensorflow-gpu==1.11.0
