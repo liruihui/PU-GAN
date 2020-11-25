@@ -1,7 +1,7 @@
 # PU-GAN: a Point Cloud Upsampling Adversarial Network
 by [Ruihui Li](https://liruihui.github.io/), [Xianzhi Li](https://nini-lxz.github.io/), [Chi-Wing Fu](http://www.cse.cuhk.edu.hk/~cwfu/), [Daniel Cohen-Or](https://www.cs.tau.ac.il/~dcor/), [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng/). 
 
-### Introduction (code will be released soon)
+### Introduction 
 
 This repository is for our ICCV 2019 paper '[PU-GAN: a Point Cloud Upsampling Adversarial Network](https://liruihui.github.io/publication/PU-GAN/)'. The code is modified from [3PU](https://github.com/yifita/3PU) and [PU-Net](https://github.com/yulequan/PU-Net). 
 
